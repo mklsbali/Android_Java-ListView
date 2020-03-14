@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Instruments"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:id="@+id/textView_1"
+            android:textSize="40sp">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You can select from the instruments below"
+            android:textColor="#555555"
+            android:textStyle="normal"
+            android:layout_margin="5dp"
+            android:id="@+id/textView_2"
+            android:textSize="20sp">
+        </TextView>
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainList"/>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="15dp">
+        <ImageView
+            android:layout_width="75dp"
+            android:alpha="0.6"
+            android:layout_height="75dp"
+            android:src="@drawable/hang1" />
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:alpha="0.6"
+            android:src="@drawable/hang2" />
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:alpha="0.6"
+            android:src="@drawable/hang1" />
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:alpha="0.6"
+            android:src="@drawable/hang2" />
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:alpha="0.6"
+            android:src="@drawable/hang1" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
